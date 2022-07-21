@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     
-printf<<"Heloo"<<endl;
+cout<<"Heloo"<<endl;
 
 
     return 0;
