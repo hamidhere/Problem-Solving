@@ -3,26 +3,23 @@ using namespace std;
 
 int main()
 {
-    int n;
+    int n, j = 0;
     cout << "Enter total numbers: ";
     cin >> n;
-    int arr[n];
-    cout << "Enter any " << n << " numbers:"<<endl;
+    int arr[n], odd[n];
+    cout << "Enter any " << n << " numbers:" << endl;
 
     for (int i = 0; i < n; i++)
     {
-        cin >> arr[i];    
+        cin >> arr[i];
     }
-    if (arr[n]%2!=0)
+    for (int i = 0; i < n; i++)
     {
-       cout<<arr[n];
+        if (arr[i] % 2 != 0)
+        {
+            cout << arr[i] << " ";
+        }
     }
-    
-    // for (size_t i = 0; i < count; i++)
-    // {
-    //     /* code */
-    // }
-    
 
     return 0;
 }
